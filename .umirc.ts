@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-const repo = 'dumi-template';
+const repo = 'react-antd-cron';
 
 export default defineConfig({
   title: repo,
@@ -18,7 +18,7 @@ export default defineConfig({
     null,
     {
       title: 'GitHub',
-      path: 'https://github.com/umijs/dumi-template',
+      path: 'https://github.com/andyFang94/react-antd-cron',
     },
   ],
   // more config: https://d.umijs.org/config
