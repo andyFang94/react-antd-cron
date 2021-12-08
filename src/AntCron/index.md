@@ -11,6 +11,7 @@ Demo:
 ```jsx
 import React from 'react';
 import { AntCron } from 'react-antd-cron';
+import 'antd/dist/antd.css';
 
 export default () => <AntCron title="First Demo" />;
 ```
