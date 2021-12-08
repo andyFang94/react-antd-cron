@@ -21,5 +21,15 @@ export default defineConfig({
       path: 'https://github.com/andyFang94/react-antd-cron',
     },
   ],
+  extraBabelPlugins: [
+    [
+      'import',
+      {
+        libraryName: 'antd',
+        libraryDirectory: 'es',
+        style: 'css',
+      },
+    ],
+  ],
   // more config: https://d.umijs.org/config
 });

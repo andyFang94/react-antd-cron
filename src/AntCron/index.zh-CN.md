@@ -4,15 +4,15 @@ nav:
   path: /components
 ---
 
-## Foo
+## AntCron
 
 Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'dumi-template';
+import { AntCron } from 'react-antd-cron';
 
-export default () => <Foo title="First Demo" />;
+export default () => <AntCron title="First Demo" />;
 ```
 
 [更多技巧](https://d.umijs.org/guide/demo-principle)
