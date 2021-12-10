@@ -29,9 +29,7 @@ const SelectModeCom = ({ type, customOptions = [], onChangeCron }) => {
   const optionsProps = useMemo(() => getInitialProps(type), [type]);
 
   const handleValueChange = (_changedValues = {}, formValues) => {
-    console.log('formValues', _changedValues, formValues);
     const buildCronStr = buildCurCromStr(formValues);
-    console.log(buildCronStr);
     onChangeCron(buildCronStr);
   };
   return (
